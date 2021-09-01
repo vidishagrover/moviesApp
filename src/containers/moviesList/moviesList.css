@@ -1,0 +1,35 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.movie-table-container {
+    width: calc(100vw - 200px);
+    height: calc(100vh -50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(37, 84, 124, 0.39);
+}
+.movie-search {
+    height: 30px;
+    width: calc(100vw - 600px);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #b5bcca;
+}
+.filters {
+    display: flex;
+}
+
+.rating-dropdown {
+    margin-left: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: #b5bcca;
+}

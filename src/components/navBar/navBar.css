@@ -1,0 +1,11 @@
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    background-color: #6E85B2;
+}
+.logo{
+    height: 50px;
+    padding-right: 10px;
+}
